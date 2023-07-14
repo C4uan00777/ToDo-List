@@ -1,0 +1,129 @@
+/* GEERAL*/
+*{
+    padding: 0;
+    margin: 0;
+    font-family:Helvetica;
+    color: gray;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(https://c.wallhere.com/photos/a6/9a/boat_clouds_digital_art-1178876.jpg!d);
+ background-size: cover;
+ 
+}
+button{
+    background-color: aliceblue;
+    color: #102F5e;
+    border: 2px solid #102F5e;
+    padding: .3rem .6rem;
+    font-size: 1rem;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+button:hover{
+    background-color: crimson;
+    color: aliceblue;
+}
+button:hover > i{
+    color:#102F5e;
+}
+button i{
+    color: #102F5e;
+    font-weight: bold;
+    pointer-events: none;
+}
+input, select{
+    padding: 0.35rem 0.5rem;
+}
+p,h1,h3,h4{
+    color:aliceblue
+}
+.todo-container{
+  max-width: 450px;
+  margin: 3rem auto ;
+  background-color: rgb(42, 106, 131);
+  padding: 1.5rem;
+  border-radius: 15px;
+}
+.todo-container header{
+    text-align: center;
+    padding: 0 1rem 1rem;
+    border-bottom: 1px solid rgb(47, 141, 179);
+}
+#todo-form, #edit-form{
+    padding: 1rem;
+    border-bottom: 1px solid rgb(32, 155, 204);
+
+}
+#todo-form p,
+#edit-form p{
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+ }
+ .form-control{
+    display: flex;
+ }
+ .form-control input{
+    margin-right: 0.3rem;
+ }
+ #cancel-edit-btn{
+    margin-top: 1rem;
+ }
+ #toolbar{
+    padding: 1rem;
+    border-bottom: 1px solid skyblue;
+    display: flex;
+ }
+ #toolbar h4{
+    margin-bottom: 0.5rem;
+ }
+ #search{
+ border-right: 1px solid;
+ padding-right: 1rem;
+ margin-right: 1rem;
+ width: 65%;
+ display: flex;
+ flex-direction: column;
+ }
+ #search form{
+    display: flex;
+ }
+ #search input{
+    width: 100%;
+    margin-right: 0.3rem;
+ }
+ #filter {
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+ }
+ #filter select{
+    flex: 1;
+ }
+ .todo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 1rem;
+ border-bottom: 1px solid skyblue;
+ transition: 0.3s;
+ }
+ .todo h3{
+    flex: 1;
+    font-size: 0.9rem;
+ }
+ .todo button{
+    margin-left: 0.4rem;
+ }
+
+.done{
+   background-color: rgb(12, 119, 119);
+}
+.done h3{
+   color: aliceblue;
+   text-decoration: line-through;
+   font-style: italic;
+}
